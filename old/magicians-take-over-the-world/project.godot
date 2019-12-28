@@ -1,0 +1,34 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[  ]
+_global_script_class_icons={
+
+}
+
+[application]
+
+config/name="MagiciansTakeOverTheWorld"
+run/main_scene="res://Scenes/Game.tscn"
+config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1080
+window/size/height=1920
+window/size/test_width=540
+window/size/test_height=960
+window/handheld/orientation="sensor_portrait"
+window/stretch/mode="2d"
+window/stretch/aspect="keep_width"
+
+[rendering]
+
+environment/default_clear_color=Color( 0.439216, 0.458824, 0.388235, 1 )

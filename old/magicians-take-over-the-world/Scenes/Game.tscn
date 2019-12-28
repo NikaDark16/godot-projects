@@ -1,0 +1,160 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scripts/Game.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/Resize.gd" type="Script" id=2]
+[ext_resource path="res://Fonts/Pacifico.tres" type="DynamicFont" id=3]
+[ext_resource path="res://Backgrounds/Background.png" type="Texture" id=4]
+
+[node name="Game" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="FixBackground" type="VBoxContainer" parent="."]
+editor/display_folded = true
+margin_right = 1080.0
+margin_bottom = 1920.0
+script = ExtResource( 2 )
+
+[node name="Control" type="VSplitContainer" parent="FixBackground"]
+margin_right = 1080.0
+margin_bottom = 958.0
+size_flags_vertical = 3
+
+[node name="ColorRect" type="ColorRect" parent="FixBackground"]
+margin_top = 962.0
+margin_right = 1080.0
+margin_bottom = 1920.0
+size_flags_vertical = 3
+color = Color( 0.152941, 0.160784, 0.137255, 1 )
+
+[node name="GUI" type="VBoxContainer" parent="."]
+editor/display_folded = true
+margin_right = 1080.0
+margin_bottom = 1920.0
+script = ExtResource( 2 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GUI"]
+margin_left = 173.0
+margin_right = 907.0
+margin_bottom = 85.0
+size_flags_horizontal = 4
+
+[node name="LabelHumans" type="Label" parent="GUI/HBoxContainer"]
+margin_right = 231.0
+margin_bottom = 85.0
+custom_fonts/font = ExtResource( 3 )
+text = "Humans: 0,"
+
+[node name="LabelMagicians" type="Label" parent="GUI/HBoxContainer"]
+margin_left = 235.0
+margin_right = 505.0
+margin_bottom = 85.0
+custom_fonts/font = ExtResource( 3 )
+text = "Magicians: 1,"
+
+[node name="LabelDemons" type="Label" parent="GUI/HBoxContainer"]
+margin_left = 509.0
+margin_right = 734.0
+margin_bottom = 85.0
+custom_fonts/font = ExtResource( 3 )
+text = "Demons: 0,"
+
+[node name="LabelMagic" type="Label" parent="GUI"]
+margin_left = 441.0
+margin_top = 89.0
+margin_right = 639.0
+margin_bottom = 174.0
+size_flags_horizontal = 4
+size_flags_vertical = 1
+custom_fonts/font = ExtResource( 3 )
+text = "Magic: 0."
+
+[node name="Background" type="TextureRect" parent="GUI"]
+margin_top = 178.0
+margin_right = 1080.0
+margin_bottom = 1635.0
+size_flags_horizontal = 7
+size_flags_vertical = 7
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 6
+
+[node name="GridButtons" type="GridContainer" parent="GUI"]
+margin_top = 1639.0
+margin_right = 1080.0
+margin_bottom = 1825.0
+columns = 2
+
+[node name="FindHumans" type="Button" parent="GUI/GridButtons"]
+margin_right = 538.0
+margin_bottom = 91.0
+rect_pivot_offset = Vector2( -420, -350 )
+size_flags_horizontal = 3
+custom_fonts/font = ExtResource( 3 )
+text = "Find humans"
+
+[node name="MakeMagic" type="Button" parent="GUI/GridButtons"]
+margin_left = 542.0
+margin_right = 1080.0
+margin_bottom = 91.0
+size_flags_horizontal = 3
+custom_fonts/font = ExtResource( 3 )
+text = "Make magic"
+
+[node name="TurnIntoMagicians" type="Button" parent="GUI/GridButtons"]
+margin_top = 95.0
+margin_right = 538.0
+margin_bottom = 186.0
+custom_fonts/font = ExtResource( 3 )
+text = "Turn into magicians"
+
+[node name="SummonADemon" type="Button" parent="GUI/GridButtons"]
+margin_left = 542.0
+margin_top = 95.0
+margin_right = 1080.0
+margin_bottom = 186.0
+custom_fonts/font = ExtResource( 3 )
+text = "Summon a demon"
+
+[node name="ButtonTakeOverTheWorld" type="Button" parent="GUI"]
+margin_top = 1829.0
+margin_right = 1080.0
+margin_bottom = 1920.0
+custom_fonts/font = ExtResource( 3 )
+text = "Take over the world (need 100 demons)"
+
+[node name="Win" type="VBoxContainer" parent="."]
+editor/display_folded = true
+visible = false
+margin_right = 1080.0
+margin_bottom = 1920.0
+script = ExtResource( 2 )
+
+[node name="LabelWin" type="Label" parent="Win"]
+margin_right = 540.0
+margin_bottom = 43.0
+custom_fonts/font = ExtResource( 3 )
+text = "You win with x demons"
+align = 1
+
+[node name="Background" type="TextureRect" parent="Win"]
+margin_top = 47.0
+margin_right = 540.0
+margin_bottom = 907.0
+size_flags_horizontal = 7
+size_flags_vertical = 7
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 6
+
+[node name="ButtonRestart" type="Button" parent="Win"]
+margin_top = 911.0
+margin_right = 540.0
+margin_bottom = 960.0
+custom_fonts/font = ExtResource( 3 )
+text = "Restart"
+[connection signal="pressed" from="GUI/GridButtons/FindHumans" to="." method="_on_FindHumans_pressed"]
+[connection signal="pressed" from="GUI/GridButtons/MakeMagic" to="." method="_on_MakeMagic_pressed"]
+[connection signal="pressed" from="GUI/GridButtons/TurnIntoMagicians" to="." method="_on_TurnIntoMagicians_pressed"]
+[connection signal="pressed" from="GUI/GridButtons/SummonADemon" to="." method="_on_SummonADemon_pressed"]
+[connection signal="pressed" from="GUI/ButtonTakeOverTheWorld" to="." method="_on_ButtonTakeOverTheWorld_pressed"]
+[connection signal="pressed" from="Win/ButtonRestart" to="." method="_on_ButtonRestart_pressed"]
