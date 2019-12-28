@@ -9,7 +9,8 @@ Collection of old projects.
 * [Magicians take over the world]()
 * [OPEN it!]()
 * [Yumika catgirl finds fish]()
-* [QTE Bar]()
+* [QTE bar]()
+* [Itsumi graphomania]()
 
 ## License
 

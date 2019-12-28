@@ -1,0 +1,12 @@
+keys,en,ru
+GRAPH, "Graph", "Граф"
+DEFAULT, "Default", "По умолчанию"
+ADD VERTEX,"Add vertex","Добавить вершину"
+ADD EDGE, "Add edge", "Добавить ребро"
+DELETE EDGE,"Delete edge","Удалить ребро"
+ALGORITHMS, "Algorithms", "Алгоритмы"
+DELETE, "Delete", "Удалить"
+STARTING VERTEX, "Starting vertex", "Начальная вершина"
+ENDING VERTEX, "Ending vertex", "Конечная вершина"
+OK, "Ok", "Ок"
+CANCEL, "Cancel", "Отмена"
