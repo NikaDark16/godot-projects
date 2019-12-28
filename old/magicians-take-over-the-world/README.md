@@ -1,4 +1,4 @@
-# MagiciansTakeOverTheWorld
+# Magicians take over the world
 MagiciansTakeOverTheWorld is an open source game where you need to find people and turn them into magicians and summon demons to take over the world.
 
 ## Thanks
