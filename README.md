@@ -7,6 +7,7 @@ A collection of small projects on Godot, to develop my skill.
 Collection of old projects.
 
 * [Magicians take over the world]()
+* [OPEN it!]()
 
 ## License
 

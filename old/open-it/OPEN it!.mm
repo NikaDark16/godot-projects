@@ -1,0 +1,146 @@
+<map version="freeplane 1.7.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="OPEN it!" FOLDED="false" ID="ID_431045764" CREATED="1548750782185" MODIFIED="1548755156258" STYLE="oval">
+<font SIZE="18"/>
+<hook NAME="MapStyle">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important">
+<icon BUILTIN="yes"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,11"/>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="&#x413;&#x440;&#x430;&#x444;&#x438;&#x43a;&#x430;" POSITION="left" ID="ID_1940162362" CREATED="1548750993049" MODIFIED="1548750996834">
+<edge COLOR="#0000ff"/>
+<node TEXT="&#x41a;&#x43b;&#x435;&#x442;&#x43a;&#x430;" ID="ID_278126809" CREATED="1548753988531" MODIFIED="1548753993885"/>
+<node TEXT="&#x424;&#x43e;&#x43d;&#x44b;" FOLDED="true" ID="ID_1709322405" CREATED="1548753995195" MODIFIED="1548753997677">
+<node TEXT="1" OBJECT="java.lang.Long|1" ID="ID_1847242795" CREATED="1548754128771" MODIFIED="1548754129919"/>
+<node TEXT="2" OBJECT="java.lang.Long|2" ID="ID_265806520" CREATED="1548754130563" MODIFIED="1548754131053"/>
+<node TEXT="3" OBJECT="java.lang.Long|3" ID="ID_997099311" CREATED="1548754131979" MODIFIED="1548754132414"/>
+<node TEXT="4" OBJECT="java.lang.Long|4" ID="ID_31085145" CREATED="1548754133011" MODIFIED="1548754133373"/>
+<node TEXT="5" OBJECT="java.lang.Long|5" ID="ID_1910562364" CREATED="1548754133923" MODIFIED="1548754134309"/>
+<node TEXT="6" OBJECT="java.lang.Long|6" ID="ID_655018293" CREATED="1548754134763" MODIFIED="1548754135261"/>
+<node TEXT="7" OBJECT="java.lang.Long|7" ID="ID_630286232" CREATED="1548754135739" MODIFIED="1548754136166"/>
+<node TEXT="8" OBJECT="java.lang.Long|8" ID="ID_796866903" CREATED="1548754136620" MODIFIED="1548754137022"/>
+<node TEXT="9" OBJECT="java.lang.Long|9" ID="ID_411911034" CREATED="1548754137460" MODIFIED="1548754137845"/>
+<node TEXT="10" OBJECT="java.lang.Long|10" ID="ID_1042793888" CREATED="1548754138595" MODIFIED="1548754143597"/>
+<node TEXT="11" OBJECT="java.lang.Long|11" ID="ID_1829813134" CREATED="1548754145502" MODIFIED="1548754146741"/>
+<node TEXT="12" OBJECT="java.lang.Long|12" ID="ID_1340744825" CREATED="1548754147508" MODIFIED="1548754148261"/>
+</node>
+<node TEXT="&#x41a;&#x43d;&#x43e;&#x43f;&#x43a;&#x430;" ID="ID_1435633811" CREATED="1548753999699" MODIFIED="1548754006894"/>
+<node TEXT="&#x418;&#x43d;&#x434;&#x438;&#x43a;&#x430;&#x442;&#x43e;&#x440; &#x43e;&#x447;&#x43a;&#x43e;&#x432;" ID="ID_840726214" CREATED="1548754008572" MODIFIED="1548754104565"/>
+<node TEXT="&#x41f;&#x430;&#x43d;&#x435;&#x43b;&#x44c;" ID="ID_1895050740" CREATED="1548754105987" MODIFIED="1548754109301"/>
+<node TEXT="&#x428;&#x440;&#x438;&#x444;&#x442;&#x44b;" ID="ID_1425582879" CREATED="1548754119052" MODIFIED="1548754121357"/>
+</node>
+<node TEXT="&#x417;&#x432;&#x443;&#x43a;" POSITION="left" ID="ID_965288825" CREATED="1548751019929" MODIFIED="1548755156258">
+<edge COLOR="#ff00ff"/>
+<node TEXT="&#x41c;&#x443;&#x437;&#x44b;&#x43a;&#x430; &#x432; &#x43c;&#x435;&#x43d;&#x44e;" ID="ID_227239628" CREATED="1548754156276" MODIFIED="1548754160909"/>
+<node TEXT="&#x41c;&#x443;&#x437;&#x44b;&#x43a;&#x430; &#x432; &#x438;&#x433;&#x440;&#x435;" ID="ID_1885659685" CREATED="1548754162067" MODIFIED="1548754165965"/>
+<node TEXT="&#x417;&#x432;&#x443;&#x43a; &#x43a;&#x43d;&#x43e;&#x43f;&#x43e;&#x43a;" ID="ID_1024740115" CREATED="1548754167379" MODIFIED="1548754171373"/>
+<node TEXT="&#x417;&#x432;&#x443;&#x43a; &#x43f;&#x435;&#x440;&#x435;&#x432;&#x43e;&#x440;&#x43e;&#x442;&#x430;" ID="ID_223060319" CREATED="1548754172236" MODIFIED="1548754176733"/>
+<node TEXT="&#x417;&#x432;&#x443;&#x43a; &#x43f;&#x43e;&#x431;&#x435;&#x434;&#x44b;" ID="ID_624398225" CREATED="1548754188331" MODIFIED="1548754194485"/>
+<node TEXT="&#x417;&#x432;&#x443;&#x43a; &#x43f;&#x43e;&#x440;&#x430;&#x436;&#x435;&#x43d;&#x438;&#x44f;" ID="ID_1423112334" CREATED="1548754201180" MODIFIED="1548754210094"/>
+</node>
+<node TEXT="&#x41c;&#x443;&#x43b;&#x44c;&#x442;&#x438;&#x43f;&#x43b;&#x435;&#x435;&#x440;" POSITION="right" ID="ID_943685815" CREATED="1548751033121" MODIFIED="1548751038570">
+<edge COLOR="#00ffff"/>
+<node TEXT="ip" ID="ID_1041972501" CREATED="1548752396707" MODIFIED="1548752407523"/>
+<node TEXT="lan" ID="ID_1730652352" CREATED="1548752410138" MODIFIED="1548752411460"/>
+<node TEXT="C&#x435;&#x440;&#x432;&#x435;&#x440;?" ID="ID_1866540455" CREATED="1548752412466" MODIFIED="1548752425428"/>
+</node>
+<node TEXT="&#x422;&#x435;&#x441;&#x442;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;" POSITION="left" ID="ID_1754948253" CREATED="1548751049753" MODIFIED="1548751054347">
+<edge COLOR="#7c0000"/>
+</node>
+<node TEXT="&#x41c;&#x435;&#x43d;&#x44e;" POSITION="right" ID="ID_362770758" CREATED="1548751287321" MODIFIED="1548751288834">
+<edge COLOR="#00007c"/>
+<node TEXT="&#x421;&#x442;&#x430;&#x440;&#x442;" ID="ID_375169171" CREATED="1548751409089" MODIFIED="1548751417218">
+<node TEXT="&#x41d;&#x430;&#x447;&#x430;&#x442;&#x44c;" ID="ID_1740139341" CREATED="1548751438873" MODIFIED="1548751442747">
+<node TEXT="&#x413;&#x435;&#x439;&#x43c;&#x43f;&#x43b;&#x435;&#x439;" ID="ID_1941799329" CREATED="1548751461433" MODIFIED="1548751466490"/>
+</node>
+<node TEXT="&#x420;&#x435;&#x436;&#x438;&#x43c;&#x44b;" ID="ID_1516511680" CREATED="1548751443513" MODIFIED="1548751452739">
+<node TEXT="PVP" ID="ID_339401492" CREATED="1548751468081" MODIFIED="1548751481091"/>
+<node TEXT="PVC" ID="ID_1303978522" CREATED="1548751482281" MODIFIED="1548751484962"/>
+<node TEXT="PVP Multiplayer" ID="ID_842481683" CREATED="1548751487560" MODIFIED="1548751495507"/>
+</node>
+<node TEXT="&#x421;&#x43b;&#x43e;&#x436;&#x43d;&#x43e;&#x441;&#x442;&#x44c;" ID="ID_1426377360" CREATED="1548751454057" MODIFIED="1548751456618">
+<node TEXT="Easy" ID="ID_1041543019" CREATED="1548751385025" MODIFIED="1548751389042"/>
+<node TEXT="Hard" ID="ID_1022505886" CREATED="1548751390465" MODIFIED="1548751392122"/>
+<node TEXT="Medium" ID="ID_1724375838" CREATED="1548751393009" MODIFIED="1548751397651"/>
+</node>
+</node>
+<node TEXT="&#x41d;&#x430;&#x441;&#x442;&#x440;&#x43e;&#x439;&#x43a;&#x438;" ID="ID_251090464" CREATED="1548751418385" MODIFIED="1548751424386">
+<node TEXT="&#x420;&#x430;&#x437;&#x440;&#x435;&#x448;&#x435;&#x43d;&#x438;&#x44f;" ID="ID_1986912388" CREATED="1548751513665" MODIFIED="1548751519300"/>
+<node TEXT="&#x412;&#x438;&#x434;&#x435;&#x43e;&#x440;&#x435;&#x436;&#x438;&#x43c;&#x44b;" ID="ID_1077190008" CREATED="1548751520393" MODIFIED="1548751524306">
+<node TEXT="Fullscreen" ID="ID_636118362" CREATED="1548751525169" MODIFIED="1548751532202"/>
+<node TEXT="Window" ID="ID_976591622" CREATED="1548751532921" MODIFIED="1548751535603"/>
+<node TEXT="Borderless" ID="ID_16208175" CREATED="1548751536433" MODIFIED="1548751555395"/>
+</node>
+<node TEXT="&#x423;&#x43f;&#x440;&#x430;&#x432;&#x43b;&#x435;&#x43d;&#x438;&#x44f;" ID="ID_1065651540" CREATED="1548751556729" MODIFIED="1548751561939">
+<node TEXT="&#x41a;&#x43b;&#x430;&#x432;&#x438;&#x430;&#x442;&#x443;&#x440;&#x430;" ID="ID_1095560877" CREATED="1548751562601" MODIFIED="1548751565587"/>
+<node TEXT="&#x413;&#x435;&#x439;&#x43c;&#x43f;&#x430;&#x434;&#x44b;" ID="ID_960978801" CREATED="1548751566377" MODIFIED="1548751570299"/>
+<node TEXT="&#x41c;&#x44b;&#x448;&#x44c;" ID="ID_1985553253" CREATED="1548751571288" MODIFIED="1548751574379"/>
+<node TEXT="&#x421;&#x435;&#x43d;&#x441;&#x43e;&#x440;" ID="ID_644763479" CREATED="1548751578777" MODIFIED="1548751582499"/>
+</node>
+</node>
+<node TEXT="&#x415;&#x43a;&#x441;&#x442;&#x440;&#x430;" ID="ID_354340516" CREATED="1548751427674" MODIFIED="1548751430594">
+<node TEXT="&#x413;&#x430;&#x43b;&#x435;&#x440;&#x435;&#x44f;" ID="ID_470670543" CREATED="1548752338410" MODIFIED="1548752343115"/>
+<node TEXT="About" ID="ID_83978673" CREATED="1548752345154" MODIFIED="1548752358411"/>
+<node TEXT="&#x411;&#x43b;&#x430;&#x433;&#x43e;&#x434;&#x430;&#x440;&#x43d;&#x43e;&#x441;&#x442;&#x44c;" ID="ID_981880775" CREATED="1548752359002" MODIFIED="1548752382267"/>
+</node>
+<node TEXT="&#x412;&#x44b;&#x439;&#x442;&#x438;" ID="ID_1176215507" CREATED="1548751431553" MODIFIED="1548751436842"/>
+</node>
+</node>
+</map>

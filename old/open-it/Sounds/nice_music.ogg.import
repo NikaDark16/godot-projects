@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/nice_music.ogg-b869769a12f7f2b81413af2fb853415c.oggstr"
+
+[deps]
+
+source_file="res://Sounds/nice_music.ogg"
+dest_files=[ "res://.import/nice_music.ogg-b869769a12f7f2b81413af2fb853415c.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
