@@ -1,6 +1,6 @@
-# Godot Projects
+# Godot projects
 
-A collection of small projects on Godot, to develop my skill.
+A collection of small godot projects, to develop my skills.
 
 ## Archive
 
@@ -22,7 +22,7 @@ Collection of old projects.
 
 ## License
 
-Godot Projects is licensed under the Unlicense, please see LICENSE for details.
+Godot projects is licensed under the Unlicense, please see LICENSE for details.
 
 ## Credits
 
