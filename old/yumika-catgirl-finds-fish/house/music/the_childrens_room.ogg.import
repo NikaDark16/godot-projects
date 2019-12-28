@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/the_childrens_room.ogg-bc9809fe5ccd4a408a2d21eeb7a2f8db.oggstr"
+
+[deps]
+
+source_file="res://house/music/the_childrens_room.ogg"
+dest_files=[ "res://.import/the_childrens_room.ogg-bc9809fe5ccd4a408a2d21eeb7a2f8db.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
