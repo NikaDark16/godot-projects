@@ -20,6 +20,12 @@ Collection of old projects.
 * [Itsumi graphomania](https://github.com/IceArrow256/godot-projects/tree/master/archive/itsumi-graphomania)
 * [QTE bar](https://github.com/IceArrow256/godot-projects/tree/master/archive/qte-bar)
 
+## Projects
+
+### 2019.12
+
+* [2019 is dying](https://github.com/IceArrow256/godot-projects/tree/master/projects/2019-is-dying)
+
 ## License
 
 Godot projects is licensed under the Unlicense, please see LICENSE for details.
