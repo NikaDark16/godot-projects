@@ -26,6 +26,10 @@ Collection of old projects.
 
 * [2019 is dying](https://github.com/IceArrow256/godot-projects/tree/master/projects/2019-is-dying)
 
+### 2020.1
+
+* [life-doesnt-make-sense](https://github.com/IceArrow256/godot-projects/tree/master/projects/life-doesnt-make-sense)
+
 ## License
 
 Godot projects is licensed under the Unlicense, please see LICENSE for details.
