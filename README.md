@@ -1,6 +1,6 @@
 # Godot projects
 
-A collection of small godot projects, to develop my skills.
+A collection of small and old Godot's projects, to develop my skills.
 
 ## Archive
 
@@ -21,6 +21,8 @@ Collection of old projects.
 * [QTE bar](https://github.com/IceArrow256/godot-projects/tree/master/archive/qte-bar)
 
 ## Projects
+
+New but small projects.
 
 ### 2019.12
 
